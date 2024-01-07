@@ -1,0 +1,6 @@
+[build]
+  command = "python manage.py collectstatic --noinput"
+  publish = "."  # Spécifiez la racine du projet comme dossier de publication
+
+[context.production]
+  command = "python manage.py migrate"
