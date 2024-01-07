@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-0^xj8&y!ofbmshgs+=er1p*=h4el5s$544n)#(v0jv!9g@u+i#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['splendid-moonbeam-664c3b.netlify.app', '127.0.0.1']
 
 
 
@@ -129,4 +129,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = 'staticfiles'
